@@ -22,4 +22,20 @@ To generate the enhanced map use:
 
 To generate the enhanced map with lowered checkerboard pattern use:
 
-`python enhanceprio.py image.png prio.png -o enhanced_prio.png`
+`python enhanceprio.py image.png prio.png -o enhanced_prio.png -l`
+
+To only show the image, and not store it, you can exlude the output variable: 
+
+`python enhanceprio.py image.png prio.png -l`
+
+
+## Example
+
+When using the examle above, with this template
+![template image](exampleimages/image.png)
+
+And this priority map
+![Priority map](exampleimages/prio.png)
+
+It will generate the following enhanced priority map
+![Enhanced Priority map](exampleimages/enhanced_prio.png)
